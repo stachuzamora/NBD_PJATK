@@ -54,6 +54,15 @@ class Task1 extends Task {
 
     // recursive func reverse
 
+    def recursiveReversPrint(list: List[Any]): Unit = {
+      if (list.nonEmpty) {
+        recursiveReversPrint(list.tail)
+        println(list.head)
+      }
+    }
+
+    println(Console.BLUE + "Reverse using recursive function" + Console.RESET)
+    println(recursiveReversPrint(daysList))
     println()
 
     // foldl and foldr

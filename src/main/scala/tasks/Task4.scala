@@ -6,10 +6,7 @@ class Task4 extends Task{
     "coke" -> 5,
     "whisky" -> 80,
     "cereals" -> 10,
-    "beer" -> 8,
-    "laptop" -> 3500,
-    "keyboard" -> 199,
-    "newKeySoThereAreNoDuplicateWarnings" -> 0
+    "beer" -> 8
   )
 
   override def runTask(): Unit = {
