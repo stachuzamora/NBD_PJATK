@@ -1,0 +1,32 @@
+MongoDB shell version v4.4.6
+connecting to: mongodb://127.0.0.1:27017/nbd?compressors=disabled&gssapiServiceName=mongodb
+Implicit session: session { "id" : UUID("ec8c0781-bd48-424a-874a-4861eb1652c5") }
+MongoDB server version: 4.4.6
+{
+	"_id" : ObjectId("60d9a160d884a5bc98e8c88b"),
+	"sex" : "Male",
+	"first_name" : "Anthony",
+	"last_name" : "Nichols",
+	"job" : "Internal Auditor",
+	"email" : "anichols3@google.co.uk",
+	"location" : {
+		"city" : "Jepuro",
+		"address" : {
+			"streetname" : "La Follette",
+			"streetnumber" : "03661"
+		}
+	},
+	"description" : "ac leo pellentesque ultrices mattis odio donec vitae nisi nam ultrices libero non mattis pulvinar",
+	"height" : "162.68",
+	"weight" : "68.37",
+	"birth_date" : "2013-05-23T16:10:58Z",
+	"nationality" : "Indonesia",
+	"credit" : [
+		{
+			"type" : "jcb",
+			"number" : "4017957170327",
+			"currency" : "RUB",
+			"balance" : "4463.86"
+		}
+	]
+}

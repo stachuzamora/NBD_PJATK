@@ -1,0 +1,2 @@
+mongoimport --file ./ja.json --db nbd --collection people
+
