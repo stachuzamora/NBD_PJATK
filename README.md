@@ -14,7 +14,7 @@ Kroki do odpalenia programu z tą niewdzięczną libką:
 * ``python3 -m venv venv/``
 * ``source venv/bin/activate``
 * ``pip install -r requirements.txt``
-* możliwe konieczne usunięcie w pliku ./venv/lib/python3.8/site-packages/riak/codecs/__init__.py linijki verbose=False, aby program zadziałał
+* możliwe konieczne usunięcie w pliku ``./venv/lib/python3.8/site-packages/riak/codecs/__init__.py`` linijki verbose=False, aby program zadziałał
 
 Odpalenie programu
 `` python3 main.py ``
