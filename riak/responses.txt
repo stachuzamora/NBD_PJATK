@@ -1,0 +1,66 @@
+2.
+HTTP/1.1 200 OK
+X-Riak-Vclock: a85hYGBgzGDKBVI8DAbyfYk3vlyECCUy5rEylDb63eLLAgA=
+Vary: Accept-Encoding
+Server: MochiWeb/1.1 WebMachine/1.10.9 (cafe not found)
+Link: </buckets/s24071>; rel="up"
+Last-Modified: Mon, 28 Jun 2021 17:23:01 GMT
+ETag: "7d4GB3WfbfDsH034GtrxTH"
+Date: Mon, 28 Jun 2021 17:26:42 GMT
+Content-Type: application/json
+Content-Length: 53
+
+{"name": "NBD", year: 1, "degree": 2, "uni": "PJATK"}%
+
+
+3.
+HTTP/1.1 204 No Content
+Vary: Accept-Encoding
+Server: MochiWeb/1.1 WebMachine/1.10.9 (cafe not found)
+Date: Mon, 28 Jun 2021 17:29:38 GMT
+Content-Type: application/json
+Content-Length: 0
+
+4,5,6. takie samo jak wyżej
+
+7.
+HTTP/1.1 404 Object Not Found
+Server: MochiWeb/1.1 WebMachine/1.10.9 (cafe not found)
+Date: Mon, 28 Jun 2021 17:33:55 GMT
+Content-Type: text/plain
+Content-Length: 10
+
+not found
+
+8.
+HTTP/1.1 201 Created
+Vary: Accept-Encoding
+Server: MochiWeb/1.1 WebMachine/1.10.9 (cafe not found)
+Location: /buckets/s24071/keys/EiGaHbpY9PMepoJ1G9KYK9PdJXe
+Date: Mon, 28 Jun 2021 17:40:15 GMT
+Content-Type: application/json
+Content-Length: 0
+
+9.
+HTTP/1.1 200 OK
+X-Riak-Vclock: a85hYGBgzGDKBVI8DAbyfYl3DD2AbKYMpkTGPFaG+la/W3xZAA==
+Vary: Accept-Encoding
+Server: MochiWeb/1.1 WebMachine/1.10.9 (cafe not found)
+Link: </buckets/s24071>; rel="up"
+Last-Modified: Mon, 28 Jun 2021 17:40:15 GMT
+ETag: "18SwzK8OSnPOrgZ2eX5j5x"
+Date: Mon, 28 Jun 2021 17:41:31 GMT
+Content-Type: application/json
+Content-Length: 29
+
+{name: "przedmiot bez klucza}%
+
+10.
+HTTP/1.1 204 No Content
+Vary: Accept-Encoding
+Server: MochiWeb/1.1 WebMachine/1.10.9 (cafe not found)
+Date: Mon, 28 Jun 2021 17:42:45 GMT
+Content-Type: application/json
+Content-Length: 0
+
+
